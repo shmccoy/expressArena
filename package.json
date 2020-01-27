@@ -1,0 +1,23 @@
+{
+  "name": "expressarena",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "dev": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shmccoy/expressArena.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shmccoy/expressArena/issues"
+  },
+  "homepage": "https://github.com/shmccoy/expressArena#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

@@ -105,6 +105,7 @@ app.get('/cipher', (req, res) => {
 
 app.get('/lotto', (req, res) => {
     const picks = req.query.picks;
+    console.log(picks);
     const numPicks = picks.map(Number);
     console.log(numPicks);
     const winners = Array.from({length: 6}, () => Math.floor(Math.random() * 20) + 1);
